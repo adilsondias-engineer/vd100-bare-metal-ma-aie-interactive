@@ -1,0 +1,17 @@
+{
+  "name": "vd100-bare-metal-ma-aie-interactive",
+  "type": "HOST",
+  "platform": "vd100-bare-metal-aie-platform",
+  "domain": "standalone_psv_cortexa72_0",
+  "cpuInstance": "psv_cortexa72_0",
+  "cpuType": "cortex-a72",
+  "os": "standalone",
+  "configuration": {
+    "componentType": "HOST",
+    "hostToolchainConfigurations": []
+  },
+  "domainRealName": "standalone_psv_cortexa72_0",
+  "useSysrootToolchain": false,
+  "applicationFlow": "EMBEDDED_VPP_LINK_GENERATED",
+  "templateFlow": "VITIS"
+}

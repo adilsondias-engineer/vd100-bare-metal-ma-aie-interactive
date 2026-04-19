@@ -1,0 +1,11 @@
+# ninja log v5
+0	15	0	CMakeFiles/print_build_info	e4c7a44a316efae8
+0	15	0	/work/versal/vd100-aie-pipeline/vd100-bare-metal-ma-aie-interactive/build/CMakeFiles/print_build_info	e4c7a44a316efae8
+15	57	1776592505800399265	CMakeFiles/vd100-bare-metal-ma-aie-interactive.elf.dir/baremetal_metadata_compile.cpp.obj	ff8e73614c198aab
+15	257	1776592505999860476	CMakeFiles/vd100-bare-metal-ma-aie-interactive.elf.dir/main.cpp.obj	5d3ada824f73aefb
+257	454	1776592506169026059	vd100-bare-metal-ma-aie-interactive.elf	4471f56e05257a6b
+1	15	0	CMakeFiles/print_build_info	e4c7a44a316efae8
+1	15	0	/work/versal/vd100-aie-pipeline/vd100-bare-metal-ma-aie-interactive/build/CMakeFiles/print_build_info	e4c7a44a316efae8
+15	59	1776592993949742310	CMakeFiles/vd100-bare-metal-ma-aie-interactive.elf.dir/baremetal_metadata_compile.cpp.obj	ff8e73614c198aab
+15	255	1776592994145773533	CMakeFiles/vd100-bare-metal-ma-aie-interactive.elf.dir/main.cpp.obj	5d3ada824f73aefb
+255	454	1776592994317157769	vd100-bare-metal-ma-aie-interactive.elf	4471f56e05257a6b

@@ -1,0 +1,4 @@
+domain_path: /work/versal/vd100-aie-pipeline/vd100-bare-metal-aie-platform/export/vd100-bare-metal-aie-platform/sw/standalone_psv_cortexa72_0
+app_src_dir: /tools/Xilinx/2025.2/Vitis/data/embeddedsw/lib/sw_apps/empty_application
+template: empty_application
+lang: c

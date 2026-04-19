@@ -1,0 +1,4 @@
+/work/versal/vd100-aie-pipeline/vd100-bare-metal-ma-aie-interactive/build/CMakeFiles/vd100-bare-metal-ma-aie-interactive.elf.dir
+/work/versal/vd100-aie-pipeline/vd100-bare-metal-ma-aie-interactive/build/CMakeFiles/print_build_info.dir
+/work/versal/vd100-aie-pipeline/vd100-bare-metal-ma-aie-interactive/build/CMakeFiles/edit_cache.dir
+/work/versal/vd100-aie-pipeline/vd100-bare-metal-ma-aie-interactive/build/CMakeFiles/rebuild_cache.dir

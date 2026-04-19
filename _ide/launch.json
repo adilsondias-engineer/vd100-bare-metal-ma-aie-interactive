@@ -1,0 +1,57 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "tcf-debug",
+      "request": "launch",
+      "name": "vd100-bare-metal-ma-aie-interactive_app_hw_1",
+      "debugType": "baremetal-versal",
+      "attachToRunningTargetOptions": {
+        "targetSetupMode": "standalone",
+        "executeScript": true,
+        "scriptPath": ""
+      },
+      "autoAttachProcessChildren": false,
+      "target": {
+        "targetConnectionId": "hw",
+        "peersIniPath": "../../_ide/.peers.ini",
+        "context": "Versal"
+      },
+      "pathMap": [],
+      "targetSetup": {
+        "resetSystem": true,
+        "programDevice": true,
+        "partialBitstream": false,
+        "skipRevisionCheck": false,
+        "device": {
+          "plDevice": "Auto Detect",
+          "psDevice": "Auto Detect"
+        },
+        "enableRPUSplitMode": false,
+        "pdiFile": "${workspaceFolder}/vd100-bare-metal-ma-aie-interactive/_ide/bootimage/resources/vpl_gen_fixed.pdi",
+        "supportsSegPdi": false,
+        "zuTraceOptions": {
+          "isSelected": false,
+          "scratchAddress": "0xfffc0000",
+          "scratchSize": "0x40000",
+          "traceOutputPath": ""
+        },
+        "downloadElf": [
+          {
+            "core": "psv_cortexa72_0",
+            "resetProcessor": true,
+            "elfFile": "${workspaceFolder}/vd100-bare-metal-ma-aie-interactive/build/vd100-bare-metal-ma-aie-interactive.elf",
+            "stopAtEntry": false,
+            "isSelfRelocatingApp": false,
+            "relativeAddress": ""
+          }
+        ],
+        "crossTriggerBreakpoints": {
+          "isSelected": false,
+          "breakpoints": []
+        }
+      },
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ]
+}
